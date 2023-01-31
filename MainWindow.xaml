@@ -6,7 +6,24 @@
         xmlns:local="clr-namespace:Prog_122_W23_Lecture_8_Selection_Boxes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FF579AB0">
+
+        <ListBox x:Name="lbDisplay" d:ItemsSource="{d:SampleData ItemCount=10}" Margin="241,60,241,79" SelectionChanged="lbDisplay_SelectionChanged"/>
+        <Label Content="Information to Add To List" HorizontalAlignment="Left" Margin="61,51,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtToAdd" HorizontalAlignment="Left" Margin="61,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAddToList" Content="Add to List" HorizontalAlignment="Left" Margin="61,129,0,0" VerticalAlignment="Top" Height="33" Width="123" Click="btnAddToList_Click"/>
+        <Button x:Name="btnDisplayStudent" Content="Display Selected Student" HorizontalAlignment="Left" Margin="595,64,0,0" VerticalAlignment="Top" Height="33" Width="154" Click="btnDisplayStudent_Click"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="672,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="672,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <TextBox x:Name="txtCSIGrade" HorizontalAlignment="Left" Margin="672,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="92"/>
+        <TextBox x:Name="txtGenEdGrade" HorizontalAlignment="Left" Margin="672,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="582,124,0,0" VerticalAlignment="Top"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="582,165,0,0" VerticalAlignment="Top"/>
+        <Label Content="CSI Grade" HorizontalAlignment="Left" Margin="582,0,0,0" VerticalAlignment="Center"/>
+        <Label Content="GenEd Grade" HorizontalAlignment="Left" Margin="576,246,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAddStudent" Content="Add Student" HorizontalAlignment="Left" Margin="615,294,0,0" VerticalAlignment="Top" Height="28" Width="122" Click="btnAddStudent_Click"/>
+        <Button x:Name="btnRemoveSelectedStudent" Content="Remove Selected Student" HorizontalAlignment="Left" Margin="61,187,0,0" VerticalAlignment="Top" Height="42" Width="148" Click="btnRemoveSelectedStudent_Click"/>
+        <ComboBox x:Name="cbDisplay" HorizontalAlignment="Center" Margin="0,378,0,0" VerticalAlignment="Top" Width="318" SelectionChanged="cbDisplay_SelectionChanged"/>
 
     </Grid>
 </Window>
