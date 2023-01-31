@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32916.344
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog_122_W23_Lecture_8_Selection_Boxes", "Prog_122_W23_Lecture_8_Selection_Boxes.csproj", "{ACC69F58-31B7-41BC-AA28-71CE0B3CF9F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACC69F58-31B7-41BC-AA28-71CE0B3CF9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC69F58-31B7-41BC-AA28-71CE0B3CF9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC69F58-31B7-41BC-AA28-71CE0B3CF9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC69F58-31B7-41BC-AA28-71CE0B3CF9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E8916FB-3DC5-4AC6-A397-BB284BD80C1A}
+	EndGlobalSection
+EndGlobal
